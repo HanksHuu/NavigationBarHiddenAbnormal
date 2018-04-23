@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EEA3B49208CB9C400B2DCEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B48208CB9C400B2DCEB /* AppDelegate.swift */; };
+		9EEA3B4B208CB9C400B2DCEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B4A208CB9C400B2DCEB /* ViewController.swift */; };
+		9EEA3B4E208CB9C400B2DCEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEA3B4C208CB9C400B2DCEB /* Main.storyboard */; };
+		9EEA3B50208CB9C600B2DCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EEA3B4F208CB9C600B2DCEB /* Assets.xcassets */; };
+		9EEA3B53208CB9C600B2DCEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEA3B51208CB9C600B2DCEB /* LaunchScreen.storyboard */; };
+		9EEA3B5E208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B5D208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests.swift */; };
+		9EEA3B69208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B68208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests.swift */; };
+		9EEA3B77208CBAFD00B2DCEB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B76208CBAFD00B2DCEB /* MainTabBarController.swift */; };
+		9EEA3B79208CBB6700B2DCEB /* MyNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B78208CBB6700B2DCEB /* MyNavViewController.swift */; };
+		9EEA3B7B208CBB8400B2DCEB /* Item1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B7A208CBB8400B2DCEB /* Item1ViewController.swift */; };
+		9EEA3B7D208CBB9300B2DCEB /* Item2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B7C208CBB9300B2DCEB /* Item2ViewController.swift */; };
+		9EEA3B7F208CBD7700B2DCEB /* Item2NestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B7E208CBD7700B2DCEB /* Item2NestViewController.swift */; };
+		9EEA3B81208CBE3600B2DCEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEA3B80208CBE3600B2DCEB /* LoginViewController.swift */; };
+		D56F75E55E309769E5BCFE1B /* Pods_NavigationBarHiddenAbnormalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6890336109A76062995FF75 /* Pods_NavigationBarHiddenAbnormalTests.framework */; };
+		FCC6EEC0FB9BD6F626CDD899 /* Pods_NavigationBarHiddenAbnormalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CB7637D3287B900ED90AD7 /* Pods_NavigationBarHiddenAbnormalUITests.framework */; };
+		FF7A88C191D7FBD19FD674CA /* Pods_NavigationBarHiddenAbnormal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5838D704FBD7DD6F1E19924 /* Pods_NavigationBarHiddenAbnormal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EEA3B5A208CB9C600B2DCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EEA3B3D208CB9C400B2DCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EEA3B44208CB9C400B2DCEB;
+			remoteInfo = NavigationBarHiddenAbnormal;
+		};
+		9EEA3B65208CB9C700B2DCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EEA3B3D208CB9C400B2DCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EEA3B44208CB9C400B2DCEB;
+			remoteInfo = NavigationBarHiddenAbnormal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B8A9929DF4EDA70D3E24E64 /* Pods-NavigationBarHiddenAbnormal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarHiddenAbnormal.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarHiddenAbnormal/Pods-NavigationBarHiddenAbnormal.release.xcconfig"; sourceTree = "<group>"; };
+		131E341FFB43C9C122B1A077 /* Pods-NavigationBarHiddenAbnormalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarHiddenAbnormalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarHiddenAbnormalUITests/Pods-NavigationBarHiddenAbnormalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37A6CF103967A69C0111C60C /* Pods-NavigationBarHiddenAbnormal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarHiddenAbnormal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarHiddenAbnormal/Pods-NavigationBarHiddenAbnormal.debug.xcconfig"; sourceTree = "<group>"; };
+		49E6CCF947AD41371FDB3903 /* Pods-NavigationBarHiddenAbnormalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarHiddenAbnormalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarHiddenAbnormalUITests/Pods-NavigationBarHiddenAbnormalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C18F40B3A7FA495D9544B13 /* Pods-NavigationBarHiddenAbnormalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarHiddenAbnormalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarHiddenAbnormalTests/Pods-NavigationBarHiddenAbnormalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EEA3B45208CB9C400B2DCEB /* NavigationBarHiddenAbnormal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarHiddenAbnormal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEA3B48208CB9C400B2DCEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EEA3B4A208CB9C400B2DCEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EEA3B4D208CB9C400B2DCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EEA3B4F208CB9C600B2DCEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EEA3B52208CB9C600B2DCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EEA3B54208CB9C600B2DCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEA3B59208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarHiddenAbnormalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEA3B5D208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHiddenAbnormalTests.swift; sourceTree = "<group>"; };
+		9EEA3B5F208CB9C700B2DCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEA3B64208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarHiddenAbnormalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEA3B68208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHiddenAbnormalUITests.swift; sourceTree = "<group>"; };
+		9EEA3B6A208CB9C700B2DCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEA3B76208CBAFD00B2DCEB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9EEA3B78208CBB6700B2DCEB /* MyNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavViewController.swift; sourceTree = "<group>"; };
+		9EEA3B7A208CBB8400B2DCEB /* Item1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item1ViewController.swift; sourceTree = "<group>"; };
+		9EEA3B7C208CBB9300B2DCEB /* Item2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2ViewController.swift; sourceTree = "<group>"; };
+		9EEA3B7E208CBD7700B2DCEB /* Item2NestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2NestViewController.swift; sourceTree = "<group>"; };
+		9EEA3B80208CBE3600B2DCEB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D8CB7637D3287B900ED90AD7 /* Pods_NavigationBarHiddenAbnormalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarHiddenAbnormalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8874AFC7659A433DA632E2 /* Pods-NavigationBarHiddenAbnormalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarHiddenAbnormalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarHiddenAbnormalTests/Pods-NavigationBarHiddenAbnormalTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5838D704FBD7DD6F1E19924 /* Pods_NavigationBarHiddenAbnormal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarHiddenAbnormal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6890336109A76062995FF75 /* Pods_NavigationBarHiddenAbnormalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarHiddenAbnormalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EEA3B42208CB9C400B2DCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7A88C191D7FBD19FD674CA /* Pods_NavigationBarHiddenAbnormal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEA3B56208CB9C600B2DCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56F75E55E309769E5BCFE1B /* Pods_NavigationBarHiddenAbnormalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEA3B61208CB9C700B2DCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC6EEC0FB9BD6F626CDD899 /* Pods_NavigationBarHiddenAbnormalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C52833E848A4214E9995605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A6CF103967A69C0111C60C /* Pods-NavigationBarHiddenAbnormal.debug.xcconfig */,
+				0B8A9929DF4EDA70D3E24E64 /* Pods-NavigationBarHiddenAbnormal.release.xcconfig */,
+				7C18F40B3A7FA495D9544B13 /* Pods-NavigationBarHiddenAbnormalTests.debug.xcconfig */,
+				DE8874AFC7659A433DA632E2 /* Pods-NavigationBarHiddenAbnormalTests.release.xcconfig */,
+				49E6CCF947AD41371FDB3903 /* Pods-NavigationBarHiddenAbnormalUITests.debug.xcconfig */,
+				131E341FFB43C9C122B1A077 /* Pods-NavigationBarHiddenAbnormalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CF4270700A980F51216CCD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5838D704FBD7DD6F1E19924 /* Pods_NavigationBarHiddenAbnormal.framework */,
+				F6890336109A76062995FF75 /* Pods_NavigationBarHiddenAbnormalTests.framework */,
+				D8CB7637D3287B900ED90AD7 /* Pods_NavigationBarHiddenAbnormalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EEA3B3C208CB9C400B2DCEB = {
+			isa = PBXGroup;
+			children = (
+				9EEA3B47208CB9C400B2DCEB /* NavigationBarHiddenAbnormal */,
+				9EEA3B5C208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests */,
+				9EEA3B67208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests */,
+				9EEA3B46208CB9C400B2DCEB /* Products */,
+				4C52833E848A4214E9995605 /* Pods */,
+				7CF4270700A980F51216CCD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EEA3B46208CB9C400B2DCEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA3B45208CB9C400B2DCEB /* NavigationBarHiddenAbnormal.app */,
+				9EEA3B59208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests.xctest */,
+				9EEA3B64208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EEA3B47208CB9C400B2DCEB /* NavigationBarHiddenAbnormal */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA3B48208CB9C400B2DCEB /* AppDelegate.swift */,
+				9EEA3B4A208CB9C400B2DCEB /* ViewController.swift */,
+				9EEA3B78208CBB6700B2DCEB /* MyNavViewController.swift */,
+				9EEA3B76208CBAFD00B2DCEB /* MainTabBarController.swift */,
+				9EEA3B7A208CBB8400B2DCEB /* Item1ViewController.swift */,
+				9EEA3B7E208CBD7700B2DCEB /* Item2NestViewController.swift */,
+				9EEA3B7C208CBB9300B2DCEB /* Item2ViewController.swift */,
+				9EEA3B80208CBE3600B2DCEB /* LoginViewController.swift */,
+				9EEA3B4C208CB9C400B2DCEB /* Main.storyboard */,
+				9EEA3B4F208CB9C600B2DCEB /* Assets.xcassets */,
+				9EEA3B51208CB9C600B2DCEB /* LaunchScreen.storyboard */,
+				9EEA3B54208CB9C600B2DCEB /* Info.plist */,
+			);
+			path = NavigationBarHiddenAbnormal;
+			sourceTree = "<group>";
+		};
+		9EEA3B5C208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA3B5D208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests.swift */,
+				9EEA3B5F208CB9C700B2DCEB /* Info.plist */,
+			);
+			path = NavigationBarHiddenAbnormalTests;
+			sourceTree = "<group>";
+		};
+		9EEA3B67208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EEA3B68208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests.swift */,
+				9EEA3B6A208CB9C700B2DCEB /* Info.plist */,
+			);
+			path = NavigationBarHiddenAbnormalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EEA3B44208CB9C400B2DCEB /* NavigationBarHiddenAbnormal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EEA3B6D208CB9C700B2DCEB /* Build configuration list for PBXNativeTarget "NavigationBarHiddenAbnormal" */;
+			buildPhases = (
+				1B696051184907117FA297CB /* [CP] Check Pods Manifest.lock */,
+				9EEA3B41208CB9C400B2DCEB /* Sources */,
+				9EEA3B42208CB9C400B2DCEB /* Frameworks */,
+				9EEA3B43208CB9C400B2DCEB /* Resources */,
+				E7DC5A9A4D8A8803100110A4 /* [CP] Embed Pods Frameworks */,
+				D60265F7F529521E4A45568A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationBarHiddenAbnormal;
+			productName = NavigationBarHiddenAbnormal;
+			productReference = 9EEA3B45208CB9C400B2DCEB /* NavigationBarHiddenAbnormal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EEA3B58208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EEA3B70208CB9C700B2DCEB /* Build configuration list for PBXNativeTarget "NavigationBarHiddenAbnormalTests" */;
+			buildPhases = (
+				4C02B85B1C9FDAD2349ADF82 /* [CP] Check Pods Manifest.lock */,
+				9EEA3B55208CB9C600B2DCEB /* Sources */,
+				9EEA3B56208CB9C600B2DCEB /* Frameworks */,
+				9EEA3B57208CB9C600B2DCEB /* Resources */,
+				B74B5745C725C21F02E59EC3 /* [CP] Embed Pods Frameworks */,
+				F61E035449BC3A714089561C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EEA3B5B208CB9C600B2DCEB /* PBXTargetDependency */,
+			);
+			name = NavigationBarHiddenAbnormalTests;
+			productName = NavigationBarHiddenAbnormalTests;
+			productReference = 9EEA3B59208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EEA3B63208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EEA3B73208CB9C700B2DCEB /* Build configuration list for PBXNativeTarget "NavigationBarHiddenAbnormalUITests" */;
+			buildPhases = (
+				B7C2944D52C9CA9B3BDD7141 /* [CP] Check Pods Manifest.lock */,
+				9EEA3B60208CB9C700B2DCEB /* Sources */,
+				9EEA3B61208CB9C700B2DCEB /* Frameworks */,
+				9EEA3B62208CB9C700B2DCEB /* Resources */,
+				72CB201D95F603B0044EA93B /* [CP] Embed Pods Frameworks */,
+				4EFC9963890485E232015F5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EEA3B66208CB9C700B2DCEB /* PBXTargetDependency */,
+			);
+			name = NavigationBarHiddenAbnormalUITests;
+			productName = NavigationBarHiddenAbnormalUITests;
+			productReference = 9EEA3B64208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EEA3B3D208CB9C400B2DCEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "胡智林";
+				TargetAttributes = {
+					9EEA3B44208CB9C400B2DCEB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9EEA3B58208CB9C600B2DCEB = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9EEA3B44208CB9C400B2DCEB;
+					};
+					9EEA3B63208CB9C700B2DCEB = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9EEA3B44208CB9C400B2DCEB;
+					};
+				};
+			};
+			buildConfigurationList = 9EEA3B40208CB9C400B2DCEB /* Build configuration list for PBXProject "NavigationBarHiddenAbnormal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EEA3B3C208CB9C400B2DCEB;
+			productRefGroup = 9EEA3B46208CB9C400B2DCEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EEA3B44208CB9C400B2DCEB /* NavigationBarHiddenAbnormal */,
+				9EEA3B58208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests */,
+				9EEA3B63208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EEA3B43208CB9C400B2DCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEA3B53208CB9C600B2DCEB /* LaunchScreen.storyboard in Resources */,
+				9EEA3B50208CB9C600B2DCEB /* Assets.xcassets in Resources */,
+				9EEA3B4E208CB9C400B2DCEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEA3B57208CB9C600B2DCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEA3B62208CB9C700B2DCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B696051184907117FA297CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigationBarHiddenAbnormal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C02B85B1C9FDAD2349ADF82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigationBarHiddenAbnormalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EFC9963890485E232015F5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationBarHiddenAbnormalUITests/Pods-NavigationBarHiddenAbnormalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72CB201D95F603B0044EA93B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationBarHiddenAbnormalUITests/Pods-NavigationBarHiddenAbnormalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B74B5745C725C21F02E59EC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationBarHiddenAbnormalTests/Pods-NavigationBarHiddenAbnormalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C2944D52C9CA9B3BDD7141 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigationBarHiddenAbnormalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60265F7F529521E4A45568A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationBarHiddenAbnormal/Pods-NavigationBarHiddenAbnormal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7DC5A9A4D8A8803100110A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NavigationBarHiddenAbnormal/Pods-NavigationBarHiddenAbnormal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationBarHiddenAbnormal/Pods-NavigationBarHiddenAbnormal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F61E035449BC3A714089561C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigationBarHiddenAbnormalTests/Pods-NavigationBarHiddenAbnormalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EEA3B41208CB9C400B2DCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEA3B7F208CBD7700B2DCEB /* Item2NestViewController.swift in Sources */,
+				9EEA3B4B208CB9C400B2DCEB /* ViewController.swift in Sources */,
+				9EEA3B49208CB9C400B2DCEB /* AppDelegate.swift in Sources */,
+				9EEA3B7D208CBB9300B2DCEB /* Item2ViewController.swift in Sources */,
+				9EEA3B81208CBE3600B2DCEB /* LoginViewController.swift in Sources */,
+				9EEA3B79208CBB6700B2DCEB /* MyNavViewController.swift in Sources */,
+				9EEA3B77208CBAFD00B2DCEB /* MainTabBarController.swift in Sources */,
+				9EEA3B7B208CBB8400B2DCEB /* Item1ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEA3B55208CB9C600B2DCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEA3B5E208CB9C600B2DCEB /* NavigationBarHiddenAbnormalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEA3B60208CB9C700B2DCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEA3B69208CB9C700B2DCEB /* NavigationBarHiddenAbnormalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EEA3B5B208CB9C600B2DCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EEA3B44208CB9C400B2DCEB /* NavigationBarHiddenAbnormal */;
+			targetProxy = 9EEA3B5A208CB9C600B2DCEB /* PBXContainerItemProxy */;
+		};
+		9EEA3B66208CB9C700B2DCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EEA3B44208CB9C400B2DCEB /* NavigationBarHiddenAbnormal */;
+			targetProxy = 9EEA3B65208CB9C700B2DCEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EEA3B4C208CB9C400B2DCEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EEA3B4D208CB9C400B2DCEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EEA3B51208CB9C600B2DCEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EEA3B52208CB9C600B2DCEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EEA3B6B208CB9C700B2DCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EEA3B6C208CB9C700B2DCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EEA3B6E208CB9C700B2DCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A6CF103967A69C0111C60C /* Pods-NavigationBarHiddenAbnormal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9Z866A4RV;
+				INFOPLIST_FILE = NavigationBarHiddenAbnormal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HZL.NavigationBarHiddenAbnormal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EEA3B6F208CB9C700B2DCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8A9929DF4EDA70D3E24E64 /* Pods-NavigationBarHiddenAbnormal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9Z866A4RV;
+				INFOPLIST_FILE = NavigationBarHiddenAbnormal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HZL.NavigationBarHiddenAbnormal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EEA3B71208CB9C700B2DCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C18F40B3A7FA495D9544B13 /* Pods-NavigationBarHiddenAbnormalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9Z866A4RV;
+				INFOPLIST_FILE = NavigationBarHiddenAbnormalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HZL.NavigationBarHiddenAbnormalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationBarHiddenAbnormal.app/NavigationBarHiddenAbnormal";
+			};
+			name = Debug;
+		};
+		9EEA3B72208CB9C700B2DCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8874AFC7659A433DA632E2 /* Pods-NavigationBarHiddenAbnormalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9Z866A4RV;
+				INFOPLIST_FILE = NavigationBarHiddenAbnormalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HZL.NavigationBarHiddenAbnormalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationBarHiddenAbnormal.app/NavigationBarHiddenAbnormal";
+			};
+			name = Release;
+		};
+		9EEA3B74208CB9C700B2DCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E6CCF947AD41371FDB3903 /* Pods-NavigationBarHiddenAbnormalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9Z866A4RV;
+				INFOPLIST_FILE = NavigationBarHiddenAbnormalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HZL.NavigationBarHiddenAbnormalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavigationBarHiddenAbnormal;
+			};
+			name = Debug;
+		};
+		9EEA3B75208CB9C700B2DCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131E341FFB43C9C122B1A077 /* Pods-NavigationBarHiddenAbnormalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9Z866A4RV;
+				INFOPLIST_FILE = NavigationBarHiddenAbnormalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HZL.NavigationBarHiddenAbnormalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavigationBarHiddenAbnormal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EEA3B40208CB9C400B2DCEB /* Build configuration list for PBXProject "NavigationBarHiddenAbnormal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEA3B6B208CB9C700B2DCEB /* Debug */,
+				9EEA3B6C208CB9C700B2DCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EEA3B6D208CB9C700B2DCEB /* Build configuration list for PBXNativeTarget "NavigationBarHiddenAbnormal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEA3B6E208CB9C700B2DCEB /* Debug */,
+				9EEA3B6F208CB9C700B2DCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EEA3B70208CB9C700B2DCEB /* Build configuration list for PBXNativeTarget "NavigationBarHiddenAbnormalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEA3B71208CB9C700B2DCEB /* Debug */,
+				9EEA3B72208CB9C700B2DCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EEA3B73208CB9C700B2DCEB /* Build configuration list for PBXNativeTarget "NavigationBarHiddenAbnormalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEA3B74208CB9C700B2DCEB /* Debug */,
+				9EEA3B75208CB9C700B2DCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EEA3B3D208CB9C400B2DCEB /* Project object */;
+}
